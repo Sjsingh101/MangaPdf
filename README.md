@@ -9,6 +9,7 @@ Set up virtual environment:
   ```
 Download Manga: 
   ```
-  python3 mangapdf.py -u https://kodansha.us/series/a-silent-voice/
+  python3 mangapdf.py -u https://kodansha.us/series/the-garden-of-words/
   ```
-![image](https://user-images.githubusercontent.com/42518706/111061683-9996f700-84ca-11eb-840d-29ff0527dd32.png)
+![image](https://user-images.githubusercontent.com/42518706/111061837-440f1a00-84cb-11eb-9881-2244c94be11a.png)
+
