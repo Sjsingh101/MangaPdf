@@ -11,3 +11,4 @@ Download Manga:
   ```
   python3 mangapdf.py -u https://kodansha.us/series/a-silent-voice/
   ```
+![image](https://user-images.githubusercontent.com/42518706/111061683-9996f700-84ca-11eb-840d-29ff0527dd32.png)
