@@ -32,12 +32,17 @@ def download_manga_images(url):
     chapter_img_path = Image_dir+name+"/"
     
     try:
+        tlist = []
         os.mkdir(chapter_img_path)
         for ind,obj in list(enumerate(url_list)):
             purl = obj['url']
             img_path = chapter_img_path + str(ind) + ".jpg"
             download_thread = threading.Thread(target=download, args=(purl,img_path))
+            tlist.append(download_thread)
             download_thread.start()
+        
+        for x in tlist:
+            x.join()
     except:
         print("Manga Present")
 
